@@ -1,0 +1,29 @@
+#if !defined(ftrig)
+#define ftrig
+#include <cmath>
+
+float seno(const float& a)
+{
+    return sin(a);
+}
+float coseno(const float& a)
+{
+    return cos(a);
+}
+float tangente(const float& a)
+{
+    return tan(a);
+}
+float cosecante(const float& a)
+{
+    return acos(a);
+}
+float secante(const float& a)
+{
+    return asin(a);
+}
+float cotangente(const float& a)
+{
+    return atan(a);
+}
+#endif
