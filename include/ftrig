@@ -1,0 +1,57 @@
+#if !defined(ftrig)
+#define ftrig
+#include <cmath>
+/** @brief Obtain the sine of a 32/64 bit integer or floater
+ * @param a The angle
+ * @return sin(a)
+ */
+float seno(const float& a)
+{
+    return sin(a);
+}
+/** @brief Obtain the cosine of a 32/64 bit integer or floater
+ * @param a The angle
+ * @return cos(a)
+ */
+float coseno(const float& a)
+{
+    return cos(a);
+}
+/** @brief Obtain the tangent of a 32/64 bit integer or floater
+ * @param a The angle (in radians)
+ * @return tan(a)
+ */
+float tangente(const float& a)
+{
+    return tan(a);
+}
+/** @brief Obtain the cosecant of a 32/64 bit integer or floater
+ * @param a The angle (Has to be different from real numbers in order to not get nan)
+ * @return csc(a)
+ */
+float cosecante(const float& a)
+{
+    return acos(a);
+}
+/** @brief Obtain the secant of a 32/64 bit integer or floater
+ * @param a The angle (Has to be different from real numbers in order to not get nan)
+ * @return sec(a)
+ */
+float secante(const float& a)
+{
+    return asin(a);
+}
+/** @brief Obtain the cotangent of a 32/64 bit integer or floater
+ * @param a The angle (Has to be different from real numbers in order to not get nan)
+ * @return ctg(a)
+ */
+float cotangente(const float& a)
+{
+    return atan(a);
+}
+#endif
+
+/** @authors 2213026292
+ * 2213026130
+ * 2213026327
+ */
